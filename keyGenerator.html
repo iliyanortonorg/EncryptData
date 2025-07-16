@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>رمزنگاری امن پیام‌ها در محیط‌های ناامن</title>
+    <link rel="stylesheet" href="./font-awesome-pro-5/font-awesome-pro-5/css/all.min.css" />
+    <link rel="stylesheet" href="./finalstyle.css" />
+  </head>
+  <body class="text-right">
+    <div class="container mx-auto p-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 min-lg:mt-26 features">
+        <a href="./index.html" class="perspectiveDiv">
+          <div
+            class="relative parallax-inner transition-transform duration-200 bg-white/10 backdrop-blur-md border border-white/20 bg-gradient-to-r from-[#333] to-[#444] p-4 rounded-3xl shadow-lg overflow-hidden"
+          >
+            <span
+              class="absolute top-4 right-4 w-24 h-24 rounded-full bg-gradient-to-tr from-rose-400/70 via-rose-400/30 to-transparent opacity-50 blur-lg pointer-events-none"
+            ></span>
+
+            <div class="flex gap-4 items-center relative z-10">
+              <i class="fad fa-lock text-5xl text-white"></i>
+              <div class="flex flex-col">
+                <div class="font-bold text-rose-400 title_feature line-clamp-1">رمزنگاری پیام ها در محیط نا امن</div>
+                <div class="text-[11px] text-gray-300 mt-2 line-clamp-3">
+                  این ابزار پیام‌های شما را در محیط‌های ناامن و پیام‌رسان‌های مشکوک، رمزنگاری می‌کند و امن نگه می‌دارد.
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="./Decrypt.html" class="perspectiveDiv">
+          <div
+            class="relative parallax-inner transition-transform duration-200 bg-white/10 backdrop-blur-md border border-white/20 bg-gradient-to-r from-[#333] to-[#444] p-4 rounded-3xl shadow-lg overflow-hidden"
+          >
+            <span
+              class="absolute top-4 right-4 w-24 h-24 rounded-full bg-gradient-to-tr from-rose-400/70 via-rose-400/30 to-transparent opacity-50 blur-lg pointer-events-none"
+            ></span>
+
+            <div class="flex gap-4 items-center relative z-10">
+              <i class="fad fa-lock-open text-5xl text-white"></i>
+              <div class="flex flex-col">
+                <div class="font-bold text-rose-400 title_feature line-clamp-1">رمزگشایی پیام با کلید</div>
+                <div class="text-[11px] text-gray-300 mt-2 line-clamp-3">
+                  این ابزار پیام‌های رمزنگاری‌شده را با داشتن و ارائه کلید خصوصی، رمزگشایی و قابل‌خواندن می‌کند.
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="perspectiveDiv">
+          <div
+            class="relative parallax-inner transition-transform duration-200 bg-white/10 backdrop-blur-md border border-white/20 bg-gradient-to-r from-[#333] to-[#444] p-4 rounded-3xl shadow-lg overflow-hidden"
+          >
+            <span
+              class="absolute top-4 right-4 w-24 h-24 rounded-full bg-gradient-to-tr from-rose-400/70 via-rose-400/30 to-transparent opacity-50 blur-lg pointer-events-none"
+            ></span>
+
+            <div class="flex gap-4 items-center relative z-10">
+              <i class="fad fa-exclamation-triangle text-5xl text-white"></i>
+              <div class="flex flex-col">
+                <div class="font-bold text-rose-400 title_feature line-clamp-1">نکات امنیتی</div>
+                <div class="text-[11px] text-gray-300 mt-2 line-clamp-3">
+                  در این بخش، شما نکات امنیتی استفاده از این ابزار و چگونگی رفتار با محیط و پیام‌رسان‌های ناامن را
+                  می‌آموزید.
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="./keygenerator.html" class="perspectiveDiv active">
+          <div
+            class="relative parallax-inner transition-transform duration-200 bg-white/10 backdrop-blur-md border border-white/20 bg-gradient-to-r from-[#333] to-[#444] p-4 rounded-3xl shadow-lg overflow-hidden"
+          >
+            <span
+              class="absolute top-4 right-4 w-24 h-24 rounded-full bg-gradient-to-tr from-rose-400/70 via-rose-400/30 to-transparent opacity-50 blur-lg pointer-events-none"
+            ></span>
+
+            <div class="flex gap-4 items-center relative z-10">
+              <i class="fad fa-key text-5xl text-white"></i>
+              <div class="flex flex-col">
+                <div class="font-bold text-rose-400 title_feature line-clamp-1">تولید کلید جدید</div>
+                <div class="text-[11px] text-gray-300 mt-2 line-clamp-3">
+                  این ابزار برای شما کلید رمزنگاری خصوصی امن تولید می نماید. این کلید را در محیط امن باید به طرف مقابل
+                  بدهید.
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- باکس اصلی -->
+      <form class="mt-8 flex flex-col gap-6 w-full mx-auto">
+        <div class="relative w-full mx-auto">
+          <input
+            id="passwordInput"
+            type="text"
+            class="w-full direction-ltr generateSafePrivateKey bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-4 pr-12 pl-12 text-rose-300 focus:outline-none focus:border-rose-400 shadow-lg"
+            placeholder="کلید خصوصی امن شما اینجا قرار می گیرد..."
+            disabled
+          />
+
+          <!-- آیکون کلیپ‌بورد سمت چپ -->
+          <button
+            type="button"
+            id="copyButton"
+            class="absolute cursor-pointer top-1/2 left-3 -translate-y-1/2 text-rose-400 hover:text-rose-600 focus:outline-none"
+            aria-label="کپی کردن"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 16h8M8 12h8M8 8h8M5 19a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v12z"
+              />
+            </svg>
+          </button>
+
+          <!-- آیکون چشم سمت راست -->
+          <button
+            type="button"
+            id="togglePassword"
+            class="absolute cursor-pointer top-1/2 right-3 -translate-y-1/2 text-rose-400 hover:text-rose-600 focus:outline-none"
+            aria-label="نمایش/مخفی کردن رمز عبور"
+          >
+            <svg
+              id="eyeIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+              />
+            </svg>
+
+            <svg
+              id="eyeSlashIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 hidden"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.27-2.943-9.543-7a9.97 9.97 0 012.235-3.569m1.735-1.734A9.97 9.97 0 0112 5c4.477 0 8.268 2.943 9.542 7a9.956 9.956 0 01-4.144 5.764M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 3l18 18" />
+            </svg>
+          </button>
+
+          <!-- اعلان کپی -->
+          <div
+            id="copyAlert"
+            class="absolute top-full left-3 mt-1 px-3 py-1 rounded bg-gray-800 z-10 text-white text-xs opacity-0 pointer-events-none transition-opacity duration-300"
+          >
+            کپی شد!
+          </div>
+        </div>
+
+        <div class="relative">
+          <button
+            type="submit"
+            class="w-full startGenerateSafePrivateKey cursor-pointer bg-rose-500/90 text-gray-100 backdrop-blur-md border border-white/20 rounded-xl py-4 font-semibold shadow-lg hover:bg-rose-800/90 transition-colors duration-300 relative"
+          >
+            <span
+              class="absolute top-2 right-8 w-24 h-24 rounded-full bg-gradient-to-tr from-rose-400/70 via-rose-400/30 to-transparent opacity-40 blur-lg pointer-events-none"
+            ></span>
+            تولید کلید خصوصی امن
+          </button>
+        </div>
+      </form>
+      <footer class="pt-3">
+        <div class="mx-auto text-center text-white mt-8 text-xs direction-ltr">
+          <div class="mb-4">
+            <div class="pulse-wrapper">
+              <span class="pulse-circle"></span>
+              <i class="fas fa-heart heart-icon text-5xl"></i>
+            </div>
+          </div>
+          By Iliya Norton/.
+        </div>
+      </footer>
+    </div>
+    <script src="./keygenerator.js"></script>
+  </body>
+</html>
